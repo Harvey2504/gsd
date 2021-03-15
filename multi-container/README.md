@@ -34,13 +34,16 @@ goto localhost:8080 and check out how containers servicing the page are changing
 docker service scale web=10 (scaling up) 
  (use this also for scaling down. Dont go through side door)
 
-docker container rm #cid #cid ..
+docker container rm #cid #cid .. -f
 (side door destruction)
 
 docker container ls
 (new containers automatically created making up for lost ones)
 (done by reconciallation loop which constantly monitors the desired state with current state available)
 
+docker service rm web
+
+docker container ls
 
 
 
