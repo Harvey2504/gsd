@@ -7,7 +7,7 @@ Simple flask app that counts web site visits and stores in a default Redis backe
 
 #Docker Swarm Additional
 
-docker swarm init b(if on docker desktop)
+docker swarm init (if on docker desktop)
 
 docker swarm init --advertise-addr=192.168.0.20
 
