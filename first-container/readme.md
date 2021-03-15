@@ -46,6 +46,7 @@ exit will kill the process and container too
 ctrl+p+q graceful way to leave a container without burning it to ground
 
 docker container rm test -f
+(forcefully remove)
 
 
 
