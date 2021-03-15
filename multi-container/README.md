@@ -4,6 +4,36 @@ Simple flask app that counts web site visits and stores in a default Redis backe
 **References:**
 - Getting Started with Docker video training course
 
+#MultiContainer Stuffs
+
+App with Web fe and Redis be
+
+docker-compose version (or else install)
+
+docker-compose up -d 
+(inside the multi-conatiner directory)
+(docker-compose expexts its config file to be docker-compose.yml
+If u change it then give that name in command)
+
+docker image ls
+
+docker container ls
+
+localhost:5000 visit time
+
+docker-compose down
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Docker Swarm Additional
 
