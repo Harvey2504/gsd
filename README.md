@@ -144,7 +144,9 @@ incase of cmd command the commandline args override it but in case of entrypoint
 Refer Screenshots.
 
 
+While running in Docker Desktop, the Docker commands are actually running inside a small VM on your machine. If you wanted to look at the actual contents of the Mountpoint directory, you would need to first get inside of the VM.
 
+Docker is language agnostic
 
 
 
