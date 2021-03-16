@@ -36,5 +36,8 @@ docker stack ps counter
 docker stack rm counter
 
 
+docker swarm init
+docker swarm leave -f
+
 
 
