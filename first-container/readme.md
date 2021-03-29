@@ -9,11 +9,18 @@ Note : Install using the convenience script for ubuntu systems.
 
 
 # Added Commands
+```
 
+To Enter Inside the CLI of a running container
+
+docker exec -it -u root <container name> bash
+
+```
 docker login (in terminal with username and password)
+```
 
 docker image build -t harvey2504/gsd:first-ctr .
-```
+
 (here harvey2504 is Docker Id)
 (here gsd is Repo Name)
 (here first-ctr is a tag)
