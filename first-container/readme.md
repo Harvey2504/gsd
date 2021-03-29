@@ -2,14 +2,22 @@
 
 Express app with handlebars view engine.
 
+# Docker Installation 
+Links : https://docs.docker.com/engine/install/
 
-#Added
+Note : Install using the convenience script for ubuntu systems.
+
+
+# Added Commands
+
 docker login (in terminal with username and password)
 
 docker image build -t harvey2504/gsd:first-ctr .
+```
 (here harvey2504 is Docker Id)
 (here gsd is Repo Name)
 (here first-ctr is a tag)
+```
 
 docker image ls
 
@@ -33,13 +41,16 @@ docker container ls -a
 docker container start web
 
 (Stop and Delete)
+
 docker container stop web
+
 docker container rm web
 
 docker container ls -a
 (not a trace now)
 
 (interactive thingie)
+
 docker container -it --name test alpine sh
 exit will kill the process and container too
 
