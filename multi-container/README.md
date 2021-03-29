@@ -4,13 +4,18 @@ Simple flask app that counts web site visits and stores in a default Redis backe
 **References:**
 - Getting Started with Docker video training course
 
-#MultiContainer Stuffs
+# MultiContainer Stuffs
 
 App with Web fe and Redis be
 
 docker-compose version (or else install)
 
 docker-compose up -d 
+
+docker-compose -f docker-compose.yml up
+
+docker-compose -f docker-compose.yml down 
+
 (inside the multi-conatiner directory)
 (docker-compose expexts its config file to be docker-compose.yml
 If u change it then give that name in command)
@@ -25,17 +30,7 @@ docker-compose down
 
 
 
-
-
-
-
-
-
-
-
-
-
-#Docker Swarm Additional
+# Docker Swarm Additional
 
 docker swarm init (if on docker desktop)
 
@@ -62,12 +57,15 @@ docker service ps web (shows all nodes where web is running)
 goto localhost:8080 and check out how containers servicing the page are changing at each refresh
 
 docker service scale web=10 (scaling up) 
+
  (use this also for scaling down. Dont go through side door)
 
 docker container rm #cid #cid .. -f
+
 (side door destruction)
 
 docker container ls
+
 (new containers automatically created making up for lost ones)
 (done by reconciallation loop which constantly monitors the desired state with current state available)
 
