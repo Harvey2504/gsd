@@ -61,3 +61,23 @@ docker container rm test -f
 
 
 
+# Some more commands
+
+Link : https://docs.docker.com/engine/reference/commandline/docker/
+
+
+```
+$ docker build .
+(OR)
+$ docker container commit c16378f943fe rhel-httpd:latest
+(creates an image of the container)
+
+$ docker tag <image id> harvey2504/gsd:f-ctr
+(OR)
+$ docker image tag rhel-httpd:latest registry-host:5000/myadmin/rhel-httpd:latest
+(tags the image)
+
+$ docker image push registry-host:5000/myadmin/rhel-httpd:latest
+(push)
+Remember to do a docker login once before pushing
+```
