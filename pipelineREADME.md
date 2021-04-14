@@ -50,7 +50,7 @@ Now to give jenkins actions access to all users for that run this command
 chmod 777 /var/run/docker.sock
 ```
 
-* Download docker compose
+### Download docker compose
 link : https://docs.docker.com/compose/install/
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
