@@ -65,6 +65,7 @@ chmod +x /usr/local/bin/docker-compose
 
 
 ## Setting Up Jenkins
+#### Project Link : https://github.com/Harvey2504/kanban-board.git
 ### Configure Credentials
 ```
 Manage Jenkins > Manage Credentials 
