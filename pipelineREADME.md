@@ -49,7 +49,8 @@ Now to give jenkins actions access to all users for that run this command
 ```
 chmod 777 /var/run/docker.sock
 ```
-
+### Download docker on VM
+Link : https://docs.docker.com/engine/install/ubuntu/
 ### Download docker compose
 link : https://docs.docker.com/compose/install/
 ```
